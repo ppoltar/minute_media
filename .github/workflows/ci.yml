@@ -89,14 +89,16 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: playwright-report
+          publish_dir: ./playwright-report
           publish_branch: gh-pages
           user_name: github-actions
           user_email: github-actions@github.com
 
       - name: Print GitHub Pages URL
         run:
-          echo "Report deployed at: https://<your-github-username>.github.io/<r
+          echo "Report deployed at: https://<your-github-username>.github.io/<repository-name>/"
+
+
 
   finalize:
     needs: [ video_player_ci_tests, deploy_report ]
