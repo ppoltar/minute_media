@@ -9,7 +9,8 @@ on:
 jobs:
   video_player_ci_tests:
     runs-on: ubuntu-latest
-
+    outputs:
+      test_exit_code: ${{ steps.test_step.outputs.exit_code }}
     steps:
       - name: ⬇️ Checkout Repository
         uses: actions/checkout@v4
@@ -26,10 +27,13 @@ jobs:
         run: make build
 
       - name: 🧪 Run Tests
+        id: test_step
         run: |
           set +e
           make test
           echo $? > test-exit-code.txt
+          exit_code=$(cat test-exit-code.txt)
+          echo "::set-output name=exit_code::$exit_code"
 
       - name: 📤 Generate + Upload HTML Report
         if: always()
@@ -41,8 +45,54 @@ jobs:
       - name: ❌ Mark Job Failed if Tests Failed
         if: always()
         run: |
-                exit_code=$(cat test-exit-code.txt)
-                if [ "$exit_code" -ne 0 ]; then
-                  echo "❌ Some tests failed."
-                  exit 1
-                fi
+          exit_code=${{ steps.test_step.outputs.exit_code }}
+          if [ "$exit_code" -ne 0 ]; then
+            echo "❌ Some tests failed."
+            exit 1
+          fi
+
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: ⬇️ Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 📦 Install Node Modules
+        run: npm install
+
+      - name: 📝 Run ESLint
+        run: npx eslint . --ext .ts,.js
+
+      - name: 🎨 Run Prettier Check
+        run: npx prettier --check .
+
+  pr_comment:
+    runs-on: ubuntu-latest
+    needs: video_player_ci_tests
+    if: github.event_name == 'pull_request'
+    steps:
+      - name: ⬇️ Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Add PR Comment with Test Summary
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          header: '🧪 Playwright Test Report Summary'
+          path: playwright-report/index.html
+
+  deploy_report:
+    runs-on: ubuntu-latest
+    needs: video_player_ci_tests
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - name: ⬇️ Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Deploy Playwright Report to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./playwright-report
+          publish_branch: gh-pages
+          user_name: github-actions
+          user_email: github-actions@github.com
