@@ -8,7 +8,11 @@ export default defineConfig({
     retries: isCI ? 2 : 0,    //Avoid unnecessary retries locally
     workers: 5,
     reporter: isCI
-        ? [['list'], ['html', { outputFolder: 'playwright-report', open: 'never' }]] // In CI: generate report but don't open it
+        ? [
+            ['list'],
+            ['html', { outputFolder: 'playwright-report', open: 'never' }],
+            ['junit', { outputFile: 'playwright-report/results.xml' }],
+        ]
         : [['list'], ['html', { outputFolder: 'playwright-report'}]], // Locally
 
     use: {
