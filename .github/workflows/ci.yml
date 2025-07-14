@@ -60,7 +60,7 @@ jobs:
   pr_comment:
     runs-on: ubuntu-latest
     needs: video_player_ci_tests
-    if: github.event_name == 'pull_request'
+    if: always() && github.event_name == 'pull_request'
     steps:
       - name: ⬇️ Checkout Repository
         uses: actions/checkout@v4
