@@ -8,14 +8,14 @@
     export const validPauseEvent = () => ({
         userId: 'user-456',
         type: 'pause',
-        videoTime: 10.5,
+        videoTime: 8.5,
         timestamp: new Date().toISOString(),
     });
 
     export const validSeekedEvent = () => ({
         userId: 'user-789',
         type: 'seeked',
-        videoTime: 34.2,
+        videoTime: 7.2,
         timestamp: new Date().toISOString(),
     });
 
@@ -30,7 +30,7 @@
     export const playNearEndEvent = () => ({
         userId: 'user-999',
         type: 'play',
-        videoTime: 59.9, // Assume video is ~60s long
+        videoTime: 9.9,
         timestamp: new Date().toISOString(),
     });
 
@@ -51,14 +51,14 @@
     export const scrollAtMidEvent = () => ({
         userId: 'user-777',
         type: 'scroll',
-        videoTime: 30.0,
+        videoTime: 3.0,
         timestamp: new Date().toISOString(),
     });
 
     export const rapidSeekEvent = () => ({
         userId: 'user-rapid',
         type: 'seeked',
-        videoTime: 58.2,
+        videoTime: 2.2,
         timestamp: new Date().toISOString(),
     });
 
