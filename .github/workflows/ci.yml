@@ -95,8 +95,10 @@ jobs:
           user_email: github-actions@github.com
 
       - name: Print GitHub Pages URL
-        run:
-          echo "Report deployed at: https://<your-github-username>.github.io/<repository-name>/"
+        run: |
+          echo "Report deployed at: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
+
+
 
 
 
