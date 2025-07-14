@@ -1,0 +1,1535 @@
+<testsuites id="" name="" tests="31" failures="17" skipped="0" errors="0" time="24.884688999999998">
+<testsuite name="api/negative/api.negative.spec.ts" timestamp="2025-07-14T18:10:02.997Z" hostname="" tests="16" failures="16" skipped="0" time="6.237" errors="0">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - missing videoTime" classname="api/negative/api.negative.spec.ts" time="0.413">
+<failure message="api.negative.spec.ts:8:13 Negative case - missing videoTime" type="FAILURE">
+<![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - missing videoTime 
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--9cee6-ve-case---missing-videoTime/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--9cee6-ve-case---missing-videoTime/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--9cee6-ve-case---missing-videoTime-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--9cee6-ve-case---missing-videoTime-retry1/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--9cee6-ve-case---missing-videoTime-retry2/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--9cee6-ve-case---missing-videoTime-retry2/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../test-results/api-negative-api.negative--9cee6-ve-case---missing-videoTime/trace.zip]]
+
+[[ATTACHMENT|../test-results/api-negative-api.negative--9cee6-ve-case---missing-videoTime-retry1/trace.zip]]
+
+[[ATTACHMENT|../test-results/api-negative-api.negative--9cee6-ve-case---missing-videoTime-retry2/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - missing userId" classname="api/negative/api.negative.spec.ts" time="0.37">
+<failure message="api.negative.spec.ts:8:13 Negative case - missing userId" type="FAILURE">
+<![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - missing userId 
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--30c6e-ative-case---missing-userId/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--30c6e-ative-case---missing-userId/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--30c6e-ative-case---missing-userId-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--30c6e-ative-case---missing-userId-retry1/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--30c6e-ative-case---missing-userId-retry2/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--30c6e-ative-case---missing-userId-retry2/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../test-results/api-negative-api.negative--30c6e-ative-case---missing-userId/trace.zip]]
+
+[[ATTACHMENT|../test-results/api-negative-api.negative--30c6e-ative-case---missing-userId-retry1/trace.zip]]
+
+[[ATTACHMENT|../test-results/api-negative-api.negative--30c6e-ative-case---missing-userId-retry2/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - wrong type" classname="api/negative/api.negative.spec.ts" time="0.369">
+<failure message="api.negative.spec.ts:8:13 Negative case - wrong type" type="FAILURE">
+<![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - wrong type 
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--b0cb7--Negative-case---wrong-type/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--b0cb7--Negative-case---wrong-type/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--b0cb7--Negative-case---wrong-type-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--b0cb7--Negative-case---wrong-type-retry1/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--b0cb7--Negative-case---wrong-type-retry2/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--b0cb7--Negative-case---wrong-type-retry2/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../test-results/api-negative-api.negative--b0cb7--Negative-case---wrong-type/trace.zip]]
+
+[[ATTACHMENT|../test-results/api-negative-api.negative--b0cb7--Negative-case---wrong-type-retry1/trace.zip]]
+
+[[ATTACHMENT|../test-results/api-negative-api.negative--b0cb7--Negative-case---wrong-type-retry2/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - empty payload" classname="api/negative/api.negative.spec.ts" time="0.297">
+<failure message="api.negative.spec.ts:8:13 Negative case - empty payload" type="FAILURE">
+<![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - empty payload 
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--2b963-gative-case---empty-payload/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--2b963-gative-case---empty-payload/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--2b963-gative-case---empty-payload-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--2b963-gative-case---empty-payload-retry1/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--2b963-gative-case---empty-payload-retry2/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--2b963-gative-case---empty-payload-retry2/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../test-results/api-negative-api.negative--2b963-gative-case---empty-payload/trace.zip]]
+
+[[ATTACHMENT|../test-results/api-negative-api.negative--2b963-gative-case---empty-payload-retry1/trace.zip]]
+
+[[ATTACHMENT|../test-results/api-negative-api.negative--2b963-gative-case---empty-payload-retry2/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - invalid timestamp format" classname="api/negative/api.negative.spec.ts" time="0.378">
+<failure message="api.negative.spec.ts:8:13 Negative case - invalid timestamp format" type="FAILURE">
+<![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - invalid timestamp format 
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--c97ce----invalid-timestamp-format/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--c97ce----invalid-timestamp-format/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--c97ce----invalid-timestamp-format-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--c97ce----invalid-timestamp-format-retry1/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--c97ce----invalid-timestamp-format-retry2/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--c97ce----invalid-timestamp-format-retry2/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../test-results/api-negative-api.negative--c97ce----invalid-timestamp-format/trace.zip]]
+
+[[ATTACHMENT|../test-results/api-negative-api.negative--c97ce----invalid-timestamp-format-retry1/trace.zip]]
+
+[[ATTACHMENT|../test-results/api-negative-api.negative--c97ce----invalid-timestamp-format-retry2/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - negative videoTime" classname="api/negative/api.negative.spec.ts" time="0.453">
+<failure message="api.negative.spec.ts:8:13 Negative case - negative videoTime" type="FAILURE">
+<![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - negative videoTime 
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--39deb-e-case---negative-videoTime/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--39deb-e-case---negative-videoTime/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--39deb-e-case---negative-videoTime-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--39deb-e-case---negative-videoTime-retry1/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--39deb-e-case---negative-videoTime-retry2/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--39deb-e-case---negative-videoTime-retry2/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../test-results/api-negative-api.negative--39deb-e-case---negative-videoTime/trace.zip]]
+
+[[ATTACHMENT|../test-results/api-negative-api.negative--39deb-e-case---negative-videoTime-retry1/trace.zip]]
+
+[[ATTACHMENT|../test-results/api-negative-api.negative--39deb-e-case---negative-videoTime-retry2/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - extra unexpected field" classname="api/negative/api.negative.spec.ts" time="0.397">
+<failure message="api.negative.spec.ts:8:13 Negative case - extra unexpected field" type="FAILURE">
+<![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - extra unexpected field 
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--2f4e0-se---extra-unexpected-field/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--2f4e0-se---extra-unexpected-field/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--2f4e0-se---extra-unexpected-field-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--2f4e0-se---extra-unexpected-field-retry1/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--2f4e0-se---extra-unexpected-field-retry2/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--2f4e0-se---extra-unexpected-field-retry2/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../test-results/api-negative-api.negative--2f4e0-se---extra-unexpected-field/trace.zip]]
+
+[[ATTACHMENT|../test-results/api-negative-api.negative--2f4e0-se---extra-unexpected-field-retry1/trace.zip]]
+
+[[ATTACHMENT|../test-results/api-negative-api.negative--2f4e0-se---extra-unexpected-field-retry2/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - SQL injection attempt" classname="api/negative/api.negative.spec.ts" time="0.322">
+<failure message="api.negative.spec.ts:8:13 Negative case - SQL injection attempt" type="FAILURE">
+<![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - SQL injection attempt 
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--91cd5-ase---SQL-injection-attempt/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--91cd5-ase---SQL-injection-attempt/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--91cd5-ase---SQL-injection-attempt-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--91cd5-ase---SQL-injection-attempt-retry1/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--91cd5-ase---SQL-injection-attempt-retry2/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--91cd5-ase---SQL-injection-attempt-retry2/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../test-results/api-negative-api.negative--91cd5-ase---SQL-injection-attempt/trace.zip]]
+
+[[ATTACHMENT|../test-results/api-negative-api.negative--91cd5-ase---SQL-injection-attempt-retry1/trace.zip]]
+
+[[ATTACHMENT|../test-results/api-negative-api.negative--91cd5-ase---SQL-injection-attempt-retry2/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - XSS injection attempt" classname="api/negative/api.negative.spec.ts" time="0.448">
+<failure message="api.negative.spec.ts:8:13 Negative case - XSS injection attempt" type="FAILURE">
+<![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - XSS injection attempt 
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--92020-ase---XSS-injection-attempt/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--92020-ase---XSS-injection-attempt/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--92020-ase---XSS-injection-attempt-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--92020-ase---XSS-injection-attempt-retry1/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--92020-ase---XSS-injection-attempt-retry2/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--92020-ase---XSS-injection-attempt-retry2/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../test-results/api-negative-api.negative--92020-ase---XSS-injection-attempt/trace.zip]]
+
+[[ATTACHMENT|../test-results/api-negative-api.negative--92020-ase---XSS-injection-attempt-retry1/trace.zip]]
+
+[[ATTACHMENT|../test-results/api-negative-api.negative--92020-ase---XSS-injection-attempt-retry2/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - invalid symbols in type" classname="api/negative/api.negative.spec.ts" time="0.418">
+<failure message="api.negative.spec.ts:8:13 Negative case - invalid symbols in type" type="FAILURE">
+<![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - invalid symbols in type 
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--61d64-e---invalid-symbols-in-type/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--61d64-e---invalid-symbols-in-type/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--61d64-e---invalid-symbols-in-type-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--61d64-e---invalid-symbols-in-type-retry1/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--61d64-e---invalid-symbols-in-type-retry2/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--61d64-e---invalid-symbols-in-type-retry2/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../test-results/api-negative-api.negative--61d64-e---invalid-symbols-in-type/trace.zip]]
+
+[[ATTACHMENT|../test-results/api-negative-api.negative--61d64-e---invalid-symbols-in-type-retry1/trace.zip]]
+
+[[ATTACHMENT|../test-results/api-negative-api.negative--61d64-e---invalid-symbols-in-type-retry2/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - non-string userId" classname="api/negative/api.negative.spec.ts" time="0.32">
+<failure message="api.negative.spec.ts:8:13 Negative case - non-string userId" type="FAILURE">
+<![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - non-string userId 
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--eb90d-ve-case---non-string-userId/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--eb90d-ve-case---non-string-userId/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--eb90d-ve-case---non-string-userId-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--eb90d-ve-case---non-string-userId-retry1/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--eb90d-ve-case---non-string-userId-retry2/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--eb90d-ve-case---non-string-userId-retry2/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../test-results/api-negative-api.negative--eb90d-ve-case---non-string-userId/trace.zip]]
+
+[[ATTACHMENT|../test-results/api-negative-api.negative--eb90d-ve-case---non-string-userId-retry1/trace.zip]]
+
+[[ATTACHMENT|../test-results/api-negative-api.negative--eb90d-ve-case---non-string-userId-retry2/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - missing type field" classname="api/negative/api.negative.spec.ts" time="0.335">
+<failure message="api.negative.spec.ts:8:13 Negative case - missing type field" type="FAILURE">
+<![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - missing type field 
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--e640a-e-case---missing-type-field/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--e640a-e-case---missing-type-field/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--e640a-e-case---missing-type-field-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--e640a-e-case---missing-type-field-retry1/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--e640a-e-case---missing-type-field-retry2/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--e640a-e-case---missing-type-field-retry2/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../test-results/api-negative-api.negative--e640a-e-case---missing-type-field/trace.zip]]
+
+[[ATTACHMENT|../test-results/api-negative-api.negative--e640a-e-case---missing-type-field-retry1/trace.zip]]
+
+[[ATTACHMENT|../test-results/api-negative-api.negative--e640a-e-case---missing-type-field-retry2/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - null values for all fields" classname="api/negative/api.negative.spec.ts" time="0.345">
+<failure message="api.negative.spec.ts:8:13 Negative case - null values for all fields" type="FAILURE">
+<![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - null values for all fields 
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--c3cf1--null-values-for-all-fields/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--c3cf1--null-values-for-all-fields/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--c3cf1--null-values-for-all-fields-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--c3cf1--null-values-for-all-fields-retry1/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--c3cf1--null-values-for-all-fields-retry2/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--c3cf1--null-values-for-all-fields-retry2/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../test-results/api-negative-api.negative--c3cf1--null-values-for-all-fields/trace.zip]]
+
+[[ATTACHMENT|../test-results/api-negative-api.negative--c3cf1--null-values-for-all-fields-retry1/trace.zip]]
+
+[[ATTACHMENT|../test-results/api-negative-api.negative--c3cf1--null-values-for-all-fields-retry2/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - international characters in userId" classname="api/negative/api.negative.spec.ts" time="0.354">
+<failure message="api.negative.spec.ts:8:13 Negative case - international characters in userId" type="FAILURE">
+<![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - international characters in userId 
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--8ebb2-tional-characters-in-userId/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--8ebb2-tional-characters-in-userId/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--8ebb2-tional-characters-in-userId-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--8ebb2-tional-characters-in-userId-retry1/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--8ebb2-tional-characters-in-userId-retry2/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--8ebb2-tional-characters-in-userId-retry2/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../test-results/api-negative-api.negative--8ebb2-tional-characters-in-userId/trace.zip]]
+
+[[ATTACHMENT|../test-results/api-negative-api.negative--8ebb2-tional-characters-in-userId-retry1/trace.zip]]
+
+[[ATTACHMENT|../test-results/api-negative-api.negative--8ebb2-tional-characters-in-userId-retry2/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - empty strings in userId and type" classname="api/negative/api.negative.spec.ts" time="0.377">
+<failure message="api.negative.spec.ts:8:13 Negative case - empty strings in userId and type" type="FAILURE">
+<![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - empty strings in userId and type 
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--d2b5e--strings-in-userId-and-type/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--d2b5e--strings-in-userId-and-type/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--d2b5e--strings-in-userId-and-type-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--d2b5e--strings-in-userId-and-type-retry1/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--d2b5e--strings-in-userId-and-type-retry2/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--d2b5e--strings-in-userId-and-type-retry2/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../test-results/api-negative-api.negative--d2b5e--strings-in-userId-and-type/trace.zip]]
+
+[[ATTACHMENT|../test-results/api-negative-api.negative--d2b5e--strings-in-userId-and-type-retry1/trace.zip]]
+
+[[ATTACHMENT|../test-results/api-negative-api.negative--d2b5e--strings-in-userId-and-type-retry2/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - whitespace strings in userId and type" classname="api/negative/api.negative.spec.ts" time="0.641">
+<failure message="api.negative.spec.ts:8:13 Negative case - whitespace strings in userId and type" type="FAILURE">
+<![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - whitespace strings in userId and type 
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--aacd8--strings-in-userId-and-type/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--aacd8--strings-in-userId-and-type/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--aacd8--strings-in-userId-and-type-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--aacd8--strings-in-userId-and-type-retry1/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 400
+    Received:    200
+
+       8 |         test(`Negative case - ${name}`, async ({ apiContext }) => {
+       9 |             const response = await apiContext.post(BASE_URLS.api_event, { data: data() });
+    > 10 |             expect(response.status()).toBeGreaterThanOrEqual(400);
+         |                                       ^
+      11 |         });
+      12 |     }
+      13 | });
+        at /app/src/tests/api/negative/api.negative.spec.ts:10:39
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/api-negative-api.negative--aacd8--strings-in-userId-and-type-retry2/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/api-negative-api.negative--aacd8--strings-in-userId-and-type-retry2/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../test-results/api-negative-api.negative--aacd8--strings-in-userId-and-type/trace.zip]]
+
+[[ATTACHMENT|../test-results/api-negative-api.negative--aacd8--strings-in-userId-and-type-retry1/trace.zip]]
+
+[[ATTACHMENT|../test-results/api-negative-api.negative--aacd8--strings-in-userId-and-type-retry2/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="api/positive/api.positive.spec.ts" timestamp="2025-07-14T18:10:02.997Z" hostname="" tests="10" failures="0" skipped="0" time="0.691" errors="0">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - play event" classname="api/positive/api.positive.spec.ts" time="0.079">
+</testcase>
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - pause event" classname="api/positive/api.positive.spec.ts" time="0.078">
+</testcase>
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - seeked event" classname="api/positive/api.positive.spec.ts" time="0.12">
+</testcase>
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - scroll event" classname="api/positive/api.positive.spec.ts" time="0.2">
+</testcase>
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - play near end" classname="api/positive/api.positive.spec.ts" time="0.053">
+</testcase>
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - pause at start" classname="api/positive/api.positive.spec.ts" time="0.05">
+</testcase>
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - seek to start" classname="api/positive/api.positive.spec.ts" time="0.04">
+</testcase>
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - scroll at mid video" classname="api/positive/api.positive.spec.ts" time="0.035">
+</testcase>
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - rapid seek near end" classname="api/positive/api.positive.spec.ts" time="0.021">
+</testcase>
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - pause from edge user" classname="api/positive/api.positive.spec.ts" time="0.015">
+</testcase>
+</testsuite>
+<testsuite name="availability/availability.spec.ts" timestamp="2025-07-14T18:10:02.997Z" hostname="" tests="1" failures="0" skipped="0" time="2.128" errors="0">
+<testcase name="Availability test @availability › Main page loads and video player is ready" classname="availability/availability.spec.ts" time="2.128">
+</testcase>
+</testsuite>
+<testsuite name="ui/video-player.playback.spec.ts" timestamp="2025-07-14T18:10:02.997Z" hostname="" tests="2" failures="1" skipped="0" time="3.927" errors="0">
+<testcase name="Video Player Playback Controls › Play button triggers play event and video plays" classname="ui/video-player.playback.spec.ts" time="1.839">
+</testcase>
+<testcase name="Video Player Playback Controls › Pause button triggers pause event and video pauses" classname="ui/video-player.playback.spec.ts" time="2.088">
+<failure message="video-player.playback.spec.ts:18:9 Pause button triggers pause event and video pauses" type="FAILURE">
+<![CDATA[  ui/video-player.playback.spec.ts:18:9 › Video Player Playback Controls › Pause button triggers pause event and video pauses 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "pause"
+    Received: "play"
+
+      25 |
+      26 |         const postData = JSON.parse(request.postData() ?? '{}');
+    > 27 |         expect(postData.type).toBe('pause');
+         |                               ^
+      28 |
+      29 |         expect(await videoPlayerPage.isPlaying()).toBe(false);
+      30 |     });
+        at /app/src/tests/ui/video-player.playback.spec.ts:27:31
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ../../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "pause"
+    Received: "play"
+
+      25 |
+      26 |         const postData = JSON.parse(request.postData() ?? '{}');
+    > 27 |         expect(postData.type).toBe('pause');
+         |                               ^
+      28 |
+      29 |         expect(await videoPlayerPage.isPlaying()).toBe(false);
+      30 |     });
+        at /app/src/tests/ui/video-player.playback.spec.ts:27:31
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses-retry1/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ../../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses-retry1/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses-retry1/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses-retry1/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "pause"
+    Received: "play"
+
+      25 |
+      26 |         const postData = JSON.parse(request.postData() ?? '{}');
+    > 27 |         expect(postData.type).toBe('pause');
+         |                               ^
+      28 |
+      29 |         expect(await videoPlayerPage.isPlaying()).toBe(false);
+      30 |     });
+        at /app/src/tests/ui/video-player.playback.spec.ts:27:31
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses-retry2/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ../../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses-retry2/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses-retry2/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses-retry2/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses-retry2/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses/video.webm]]
+
+[[ATTACHMENT|../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses/error-context.md]]
+
+[[ATTACHMENT|../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses/trace.zip]]
+
+[[ATTACHMENT|../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses-retry1/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses-retry1/video.webm]]
+
+[[ATTACHMENT|../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses-retry1/error-context.md]]
+
+[[ATTACHMENT|../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses-retry1/trace.zip]]
+
+[[ATTACHMENT|../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses-retry2/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses-retry2/video.webm]]
+
+[[ATTACHMENT|../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses-retry2/error-context.md]]
+
+[[ATTACHMENT|../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses-retry2/trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="ui/video-player.scroll.spec.ts" timestamp="2025-07-14T18:10:02.997Z" hostname="" tests="1" failures="0" skipped="0" time="1.686" errors="0">
+<testcase name="Video Player Scroll Event › Scroll triggers scroll event sent to backend" classname="ui/video-player.scroll.spec.ts" time="1.686">
+</testcase>
+</testsuite>
+<testsuite name="ui/video-player.seek.spec.ts" timestamp="2025-07-14T18:10:02.997Z" hostname="" tests="1" failures="0" skipped="0" time="1.719" errors="0">
+<testcase name="Video Player Seek Controls › Seek triggers seeked event and updates video time" classname="ui/video-player.seek.spec.ts" time="1.719">
+</testcase>
+</testsuite>
+</testsuites>
