@@ -11,6 +11,7 @@ build:
 
 test:
 	docker run --rm \
+	    --add-host=host.docker.internal:host-gateway \
 		-v $(PWD)/playwright-report:/app/playwright-report \
 		-v $(PWD)/test-results:/app/test-results \
 		-e IS_DOCKER=true \
