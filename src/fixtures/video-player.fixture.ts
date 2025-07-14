@@ -14,7 +14,7 @@ export const test = base.extend<VideoPlayerFixture>({
         await use(videoPlayerPage);
     },
 
-    apiContext: async (_context, use) => {
+    apiContext: async (_args, use) => {
         // Create a new APIRequestContext with baseURL set
         const apiContext = await request.newContext();
         await use(apiContext);
