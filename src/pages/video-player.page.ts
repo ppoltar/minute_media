@@ -55,4 +55,11 @@ export class VideoPlayerPage {
     async scrollToVideo() {
         await this.video.scrollIntoViewIfNeeded();
     }
+
+    async waitForMetadata() {
+        await this.page.waitForFunction(() => {
+            const v = document.getElementById('video') as HTMLVideoElement;
+            return v?.readyState >= 1;
+        });
+    }
 }

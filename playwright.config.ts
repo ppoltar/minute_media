@@ -16,6 +16,7 @@ export default defineConfig({
         screenshot: isCI ? 'only-on-failure' : 'on',
         video:  isCI ? 'retain-on-failure' : 'on',
         trace: isCI ? 'retain-on-failure' : 'on',
+        channel: 'chrome', // runs against the real Chrome
     },
 
 });
