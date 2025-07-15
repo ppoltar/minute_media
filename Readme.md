@@ -3,13 +3,14 @@
 ## 📘 Project Overview
 
 **Project Name:**  
-MyPlayer Web Client
+Minute Media Video Player
 
 **Owner:**  
-Automation Infrastructure Lead - Pasha
+Automation Infrastructure Lead - Pasha.P
 
 **Scope:**  
 Frontend HTML5 video player with backend event tracking (play, pause, seek, scroll)
+
 ---
 
 ## ✅ Purpose
