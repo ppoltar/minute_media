@@ -1,6 +1,6 @@
-<testsuites id="" name="" tests="32" failures="18" skipped="0" errors="0" time="32.636219000000004">
-<testsuite name="api/negative/api.negative.spec.ts" timestamp="2025-07-15T09:10:14.571Z" hostname="" tests="16" failures="16" skipped="0" time="6.115" errors="0">
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - missing videoTime" classname="api/negative/api.negative.spec.ts" time="0.372">
+<testsuites id="" name="" tests="32" failures="18" skipped="0" errors="0" time="33.066081">
+<testsuite name="api/negative/api.negative.spec.ts" timestamp="2025-07-15T09:10:18.669Z" hostname="" tests="16" failures="16" skipped="0" time="6.178" errors="0">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - missing videoTime" classname="api/negative/api.negative.spec.ts" time="0.471">
 <failure message="api.negative.spec.ts:8:13 Negative case - missing videoTime" type="FAILURE">
 <![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - missing videoTime 
 
@@ -85,7 +85,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - missing userId" classname="api/negative/api.negative.spec.ts" time="0.43">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - missing userId" classname="api/negative/api.negative.spec.ts" time="0.372">
 <failure message="api.negative.spec.ts:8:13 Negative case - missing userId" type="FAILURE">
 <![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - missing userId 
 
@@ -170,7 +170,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - wrong type" classname="api/negative/api.negative.spec.ts" time="0.317">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - wrong type" classname="api/negative/api.negative.spec.ts" time="0.342">
 <failure message="api.negative.spec.ts:8:13 Negative case - wrong type" type="FAILURE">
 <![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - wrong type 
 
@@ -255,7 +255,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - empty payload" classname="api/negative/api.negative.spec.ts" time="0.432">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - empty payload" classname="api/negative/api.negative.spec.ts" time="0.43">
 <failure message="api.negative.spec.ts:8:13 Negative case - empty payload" type="FAILURE">
 <![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - empty payload 
 
@@ -340,7 +340,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - invalid timestamp format" classname="api/negative/api.negative.spec.ts" time="0.479">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - invalid timestamp format" classname="api/negative/api.negative.spec.ts" time="0.376">
 <failure message="api.negative.spec.ts:8:13 Negative case - invalid timestamp format" type="FAILURE">
 <![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - invalid timestamp format 
 
@@ -425,7 +425,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - negative videoTime" classname="api/negative/api.negative.spec.ts" time="0.415">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - negative videoTime" classname="api/negative/api.negative.spec.ts" time="0.464">
 <failure message="api.negative.spec.ts:8:13 Negative case - negative videoTime" type="FAILURE">
 <![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - negative videoTime 
 
@@ -510,7 +510,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - extra unexpected field" classname="api/negative/api.negative.spec.ts" time="0.341">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - extra unexpected field" classname="api/negative/api.negative.spec.ts" time="0.292">
 <failure message="api.negative.spec.ts:8:13 Negative case - extra unexpected field" type="FAILURE">
 <![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - extra unexpected field 
 
@@ -595,7 +595,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - SQL injection attempt" classname="api/negative/api.negative.spec.ts" time="0.361">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - SQL injection attempt" classname="api/negative/api.negative.spec.ts" time="0.364">
 <failure message="api.negative.spec.ts:8:13 Negative case - SQL injection attempt" type="FAILURE">
 <![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - SQL injection attempt 
 
@@ -680,7 +680,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - XSS injection attempt" classname="api/negative/api.negative.spec.ts" time="0.396">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - XSS injection attempt" classname="api/negative/api.negative.spec.ts" time="0.44">
 <failure message="api.negative.spec.ts:8:13 Negative case - XSS injection attempt" type="FAILURE">
 <![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - XSS injection attempt 
 
@@ -765,7 +765,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - invalid symbols in type" classname="api/negative/api.negative.spec.ts" time="0.397">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - invalid symbols in type" classname="api/negative/api.negative.spec.ts" time="0.437">
 <failure message="api.negative.spec.ts:8:13 Negative case - invalid symbols in type" type="FAILURE">
 <![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - invalid symbols in type 
 
@@ -850,7 +850,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - non-string userId" classname="api/negative/api.negative.spec.ts" time="0.29">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - non-string userId" classname="api/negative/api.negative.spec.ts" time="0.386">
 <failure message="api.negative.spec.ts:8:13 Negative case - non-string userId" type="FAILURE">
 <![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - non-string userId 
 
@@ -935,7 +935,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - missing type field" classname="api/negative/api.negative.spec.ts" time="0.375">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - missing type field" classname="api/negative/api.negative.spec.ts" time="0.394">
 <failure message="api.negative.spec.ts:8:13 Negative case - missing type field" type="FAILURE">
 <![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - missing type field 
 
@@ -1020,7 +1020,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - null values for all fields" classname="api/negative/api.negative.spec.ts" time="0.449">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - null values for all fields" classname="api/negative/api.negative.spec.ts" time="0.422">
 <failure message="api.negative.spec.ts:8:13 Negative case - null values for all fields" type="FAILURE">
 <![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - null values for all fields 
 
@@ -1105,7 +1105,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - international characters in userId" classname="api/negative/api.negative.spec.ts" time="0.311">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - international characters in userId" classname="api/negative/api.negative.spec.ts" time="0.347">
 <failure message="api.negative.spec.ts:8:13 Negative case - international characters in userId" type="FAILURE">
 <![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - international characters in userId 
 
@@ -1190,7 +1190,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - empty strings in userId and type" classname="api/negative/api.negative.spec.ts" time="0.396">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - empty strings in userId and type" classname="api/negative/api.negative.spec.ts" time="0.313">
 <failure message="api.negative.spec.ts:8:13 Negative case - empty strings in userId and type" type="FAILURE">
 <![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - empty strings in userId and type 
 
@@ -1275,7 +1275,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - whitespace strings in userId and type" classname="api/negative/api.negative.spec.ts" time="0.354">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - whitespace strings in userId and type" classname="api/negative/api.negative.spec.ts" time="0.328">
 <failure message="api.negative.spec.ts:8:13 Negative case - whitespace strings in userId and type" type="FAILURE">
 <![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - whitespace strings in userId and type 
 
@@ -1361,34 +1361,34 @@
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="api/positive/api.positive.spec.ts" timestamp="2025-07-15T09:10:14.571Z" hostname="" tests="10" failures="0" skipped="0" time="0.623" errors="0">
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - play event" classname="api/positive/api.positive.spec.ts" time="0.068">
+<testsuite name="api/positive/api.positive.spec.ts" timestamp="2025-07-15T09:10:18.669Z" hostname="" tests="10" failures="0" skipped="0" time="0.562" errors="0">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - play event" classname="api/positive/api.positive.spec.ts" time="0.087">
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - pause event" classname="api/positive/api.positive.spec.ts" time="0.076">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - pause event" classname="api/positive/api.positive.spec.ts" time="0.087">
 </testcase>
 <testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - seeked event" classname="api/positive/api.positive.spec.ts" time="0.083">
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - scroll event" classname="api/positive/api.positive.spec.ts" time="0.25">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - scroll event" classname="api/positive/api.positive.spec.ts" time="0.097">
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - play near end" classname="api/positive/api.positive.spec.ts" time="0.029">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - play near end" classname="api/positive/api.positive.spec.ts" time="0.057">
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - pause at start" classname="api/positive/api.positive.spec.ts" time="0.027">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - pause at start" classname="api/positive/api.positive.spec.ts" time="0.057">
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - seek to start" classname="api/positive/api.positive.spec.ts" time="0.023">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - seek to start" classname="api/positive/api.positive.spec.ts" time="0.028">
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - scroll at mid video" classname="api/positive/api.positive.spec.ts" time="0.015">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - scroll at mid video" classname="api/positive/api.positive.spec.ts" time="0.017">
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - rapid seek near end" classname="api/positive/api.positive.spec.ts" time="0.027">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - rapid seek near end" classname="api/positive/api.positive.spec.ts" time="0.032">
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - pause from edge user" classname="api/positive/api.positive.spec.ts" time="0.025">
-</testcase>
-</testsuite>
-<testsuite name="availability/availability.spec.ts" timestamp="2025-07-15T09:10:14.571Z" hostname="" tests="1" failures="0" skipped="0" time="1.753" errors="0">
-<testcase name="Availability test › Main page loads and video player is ready @availability @ui" classname="availability/availability.spec.ts" time="1.753">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - pause from edge user" classname="api/positive/api.positive.spec.ts" time="0.017">
 </testcase>
 </testsuite>
-<testsuite name="ui/video-player.e2e.spec.ts" timestamp="2025-07-15T09:10:14.571Z" hostname="" tests="1" failures="1" skipped="0" time="8.988" errors="0">
-<testcase name="E2E Test - All available functions › E2E - Play, seek, pause, play, scroll - collect all events and verify @ui @e2e" classname="ui/video-player.e2e.spec.ts" time="8.988">
+<testsuite name="availability/availability.spec.ts" timestamp="2025-07-15T09:10:18.669Z" hostname="" tests="1" failures="0" skipped="0" time="1.769" errors="0">
+<testcase name="Availability test › Main page loads and video player is ready @availability @ui" classname="availability/availability.spec.ts" time="1.769">
+</testcase>
+</testsuite>
+<testsuite name="ui/video-player.e2e.spec.ts" timestamp="2025-07-15T09:10:18.669Z" hostname="" tests="1" failures="1" skipped="0" time="9.202" errors="0">
+<testcase name="E2E Test - All available functions › E2E - Play, seek, pause, play, scroll - collect all events and verify @ui @e2e" classname="ui/video-player.e2e.spec.ts" time="9.202">
 <failure message="video-player.e2e.spec.ts:5:9 E2E - Play, seek, pause, play, scroll - collect all events and verify @ui @e2e" type="FAILURE">
 <![CDATA[  ui/video-player.e2e.spec.ts:5:9 › E2E Test - All available functions › E2E - Play, seek, pause, play, scroll - collect all events and verify @ui @e2e 
 
@@ -1429,7 +1429,7 @@
     Error: expect(received).toEqual(expected) // deep equality
 
     Expected: ArrayContaining ["play", "seeked", "pause", "play", "scroll"]
-    Received: ["play", "play", "seeked", "play", "scroll"]
+    Received: ["play", "play", "play", "seeked", "scroll"]
 
       11 |         await videoPlayerPage.scrollToPageBottom();
       12 |     });
@@ -1463,7 +1463,7 @@
     Error: expect(received).toEqual(expected) // deep equality
 
     Expected: ArrayContaining ["play", "seeked", "pause", "play", "scroll"]
-    Received: ["play", "play", "play", "scroll", "seeked"]
+    Received: ["play", "play", "play", "seeked", "scroll"]
 
       11 |         await videoPlayerPage.scrollToPageBottom();
       12 |     });
@@ -1522,10 +1522,10 @@
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="ui/video-player.playback.spec.ts" timestamp="2025-07-15T09:10:14.571Z" hostname="" tests="2" failures="1" skipped="0" time="11.235" errors="0">
-<testcase name="Video Player Playback Controls › Play button triggers play event and video plays @ui @play" classname="ui/video-player.playback.spec.ts" time="3.244">
+<testsuite name="ui/video-player.playback.spec.ts" timestamp="2025-07-15T09:10:18.669Z" hostname="" tests="2" failures="1" skipped="0" time="11.794" errors="0">
+<testcase name="Video Player Playback Controls › Play button triggers play event and video plays @ui @play" classname="ui/video-player.playback.spec.ts" time="3.515">
 </testcase>
-<testcase name="Video Player Playback Controls › Play, Pause button triggers pause event and video pauses @ui @pause" classname="ui/video-player.playback.spec.ts" time="7.991">
+<testcase name="Video Player Playback Controls › Play, Pause button triggers pause event and video pauses @ui @pause" classname="ui/video-player.playback.spec.ts" time="8.279">
 <failure message="video-player.playback.spec.ts:11:13 Play, Pause button triggers pause event and video pauses @ui @pause" type="FAILURE">
 <![CDATA[  ui/video-player.playback.spec.ts:11:13 › Video Player Playback Controls › Play, Pause button triggers pause event and video pauses @ui @pause 
 
@@ -1659,12 +1659,12 @@
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="ui/video-player.scroll.spec.ts" timestamp="2025-07-15T09:10:14.571Z" hostname="" tests="1" failures="0" skipped="0" time="3.18" errors="0">
-<testcase name="Video Player Scroll Event › Scroll triggers scroll event sent to backend @ui @scroll" classname="ui/video-player.scroll.spec.ts" time="3.18">
+<testsuite name="ui/video-player.scroll.spec.ts" timestamp="2025-07-15T09:10:18.669Z" hostname="" tests="1" failures="0" skipped="0" time="3.668" errors="0">
+<testcase name="Video Player Scroll Event › Scroll triggers scroll event sent to backend @ui @scroll" classname="ui/video-player.scroll.spec.ts" time="3.668">
 </testcase>
 </testsuite>
-<testsuite name="ui/video-player.seek.spec.ts" timestamp="2025-07-15T09:10:14.571Z" hostname="" tests="1" failures="0" skipped="0" time="3.027" errors="0">
-<testcase name="Video Player Seek Controls › Seek triggers seeked event and updates video time @ui @seek" classname="ui/video-player.seek.spec.ts" time="3.027">
+<testsuite name="ui/video-player.seek.spec.ts" timestamp="2025-07-15T09:10:18.669Z" hostname="" tests="1" failures="0" skipped="0" time="2.692" errors="0">
+<testcase name="Video Player Seek Controls › Seek triggers seeked event and updates video time @ui @seek" classname="ui/video-player.seek.spec.ts" time="2.692">
 </testcase>
 </testsuite>
 </testsuites>
