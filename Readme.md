@@ -2,10 +2,14 @@
 
 ## 📘 Project Overview
 
-**Project Name:** MyPlayer Web Client
-**Owner:** Automation Infrastructure Lead - Pasha
-**Scope:** Frontend HTML5 video player with backend event tracking (play, pause, seek, scroll)
+**Project Name:**  
+MyPlayer Web Client
 
+**Owner:**  
+Automation Infrastructure Lead - Pasha
+
+**Scope:**  
+Frontend HTML5 video player with backend event tracking (play, pause, seek, scroll)
 ---
 
 ## ✅ Purpose
