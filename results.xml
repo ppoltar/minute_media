@@ -1,6 +1,6 @@
-<testsuites id="" name="" tests="31" failures="17" skipped="0" errors="0" time="24.895541">
-<testsuite name="api/negative/api.negative.spec.ts" timestamp="2025-07-14T19:04:01.125Z" hostname="" tests="16" failures="16" skipped="0" time="5.949" errors="0">
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - missing videoTime" classname="api/negative/api.negative.spec.ts" time="0.555">
+<testsuites id="" name="" tests="32" failures="18" skipped="0" errors="0" time="32.636219000000004">
+<testsuite name="api/negative/api.negative.spec.ts" timestamp="2025-07-15T09:10:14.571Z" hostname="" tests="16" failures="16" skipped="0" time="6.115" errors="0">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - missing videoTime" classname="api/negative/api.negative.spec.ts" time="0.372">
 <failure message="api.negative.spec.ts:8:13 Negative case - missing videoTime" type="FAILURE">
 <![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - missing videoTime 
 
@@ -85,7 +85,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - missing userId" classname="api/negative/api.negative.spec.ts" time="0.295">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - missing userId" classname="api/negative/api.negative.spec.ts" time="0.43">
 <failure message="api.negative.spec.ts:8:13 Negative case - missing userId" type="FAILURE">
 <![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - missing userId 
 
@@ -170,7 +170,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - wrong type" classname="api/negative/api.negative.spec.ts" time="0.419">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - wrong type" classname="api/negative/api.negative.spec.ts" time="0.317">
 <failure message="api.negative.spec.ts:8:13 Negative case - wrong type" type="FAILURE">
 <![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - wrong type 
 
@@ -255,7 +255,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - empty payload" classname="api/negative/api.negative.spec.ts" time="0.412">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - empty payload" classname="api/negative/api.negative.spec.ts" time="0.432">
 <failure message="api.negative.spec.ts:8:13 Negative case - empty payload" type="FAILURE">
 <![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - empty payload 
 
@@ -340,7 +340,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - invalid timestamp format" classname="api/negative/api.negative.spec.ts" time="0.416">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - invalid timestamp format" classname="api/negative/api.negative.spec.ts" time="0.479">
 <failure message="api.negative.spec.ts:8:13 Negative case - invalid timestamp format" type="FAILURE">
 <![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - invalid timestamp format 
 
@@ -425,7 +425,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - negative videoTime" classname="api/negative/api.negative.spec.ts" time="0.324">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - negative videoTime" classname="api/negative/api.negative.spec.ts" time="0.415">
 <failure message="api.negative.spec.ts:8:13 Negative case - negative videoTime" type="FAILURE">
 <![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - negative videoTime 
 
@@ -510,7 +510,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - extra unexpected field" classname="api/negative/api.negative.spec.ts" time="0.328">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - extra unexpected field" classname="api/negative/api.negative.spec.ts" time="0.341">
 <failure message="api.negative.spec.ts:8:13 Negative case - extra unexpected field" type="FAILURE">
 <![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - extra unexpected field 
 
@@ -595,7 +595,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - SQL injection attempt" classname="api/negative/api.negative.spec.ts" time="0.389">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - SQL injection attempt" classname="api/negative/api.negative.spec.ts" time="0.361">
 <failure message="api.negative.spec.ts:8:13 Negative case - SQL injection attempt" type="FAILURE">
 <![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - SQL injection attempt 
 
@@ -680,7 +680,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - XSS injection attempt" classname="api/negative/api.negative.spec.ts" time="0.346">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - XSS injection attempt" classname="api/negative/api.negative.spec.ts" time="0.396">
 <failure message="api.negative.spec.ts:8:13 Negative case - XSS injection attempt" type="FAILURE">
 <![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - XSS injection attempt 
 
@@ -765,7 +765,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - invalid symbols in type" classname="api/negative/api.negative.spec.ts" time="0.279">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - invalid symbols in type" classname="api/negative/api.negative.spec.ts" time="0.397">
 <failure message="api.negative.spec.ts:8:13 Negative case - invalid symbols in type" type="FAILURE">
 <![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - invalid symbols in type 
 
@@ -850,7 +850,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - non-string userId" classname="api/negative/api.negative.spec.ts" time="0.378">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - non-string userId" classname="api/negative/api.negative.spec.ts" time="0.29">
 <failure message="api.negative.spec.ts:8:13 Negative case - non-string userId" type="FAILURE">
 <![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - non-string userId 
 
@@ -935,7 +935,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - missing type field" classname="api/negative/api.negative.spec.ts" time="0.387">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - missing type field" classname="api/negative/api.negative.spec.ts" time="0.375">
 <failure message="api.negative.spec.ts:8:13 Negative case - missing type field" type="FAILURE">
 <![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - missing type field 
 
@@ -1020,7 +1020,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - null values for all fields" classname="api/negative/api.negative.spec.ts" time="0.363">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - null values for all fields" classname="api/negative/api.negative.spec.ts" time="0.449">
 <failure message="api.negative.spec.ts:8:13 Negative case - null values for all fields" type="FAILURE">
 <![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - null values for all fields 
 
@@ -1105,7 +1105,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - international characters in userId" classname="api/negative/api.negative.spec.ts" time="0.326">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - international characters in userId" classname="api/negative/api.negative.spec.ts" time="0.311">
 <failure message="api.negative.spec.ts:8:13 Negative case - international characters in userId" type="FAILURE">
 <![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - international characters in userId 
 
@@ -1190,7 +1190,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - empty strings in userId and type" classname="api/negative/api.negative.spec.ts" time="0.397">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - empty strings in userId and type" classname="api/negative/api.negative.spec.ts" time="0.396">
 <failure message="api.negative.spec.ts:8:13 Negative case - empty strings in userId and type" type="FAILURE">
 <![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - empty strings in userId and type 
 
@@ -1275,7 +1275,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - whitespace strings in userId and type" classname="api/negative/api.negative.spec.ts" time="0.335">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - whitespace strings in userId and type" classname="api/negative/api.negative.spec.ts" time="0.354">
 <failure message="api.negative.spec.ts:8:13 Negative case - whitespace strings in userId and type" type="FAILURE">
 <![CDATA[  api/negative/api.negative.spec.ts:8:13 › API --> http://host.docker.internal:3000/api/event - Negative cases @negative @api › Negative case - whitespace strings in userId and type 
 
@@ -1361,175 +1361,310 @@
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="api/positive/api.positive.spec.ts" timestamp="2025-07-14T19:04:01.125Z" hostname="" tests="10" failures="0" skipped="0" time="0.709" errors="0">
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - play event" classname="api/positive/api.positive.spec.ts" time="0.102">
+<testsuite name="api/positive/api.positive.spec.ts" timestamp="2025-07-15T09:10:14.571Z" hostname="" tests="10" failures="0" skipped="0" time="0.623" errors="0">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - play event" classname="api/positive/api.positive.spec.ts" time="0.068">
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - pause event" classname="api/positive/api.positive.spec.ts" time="0.073">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - pause event" classname="api/positive/api.positive.spec.ts" time="0.076">
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - seeked event" classname="api/positive/api.positive.spec.ts" time="0.113">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - seeked event" classname="api/positive/api.positive.spec.ts" time="0.083">
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - scroll event" classname="api/positive/api.positive.spec.ts" time="0.203">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - scroll event" classname="api/positive/api.positive.spec.ts" time="0.25">
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - play near end" classname="api/positive/api.positive.spec.ts" time="0.049">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - play near end" classname="api/positive/api.positive.spec.ts" time="0.029">
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - pause at start" classname="api/positive/api.positive.spec.ts" time="0.053">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - pause at start" classname="api/positive/api.positive.spec.ts" time="0.027">
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - seek to start" classname="api/positive/api.positive.spec.ts" time="0.033">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - seek to start" classname="api/positive/api.positive.spec.ts" time="0.023">
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - scroll at mid video" classname="api/positive/api.positive.spec.ts" time="0.032">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - scroll at mid video" classname="api/positive/api.positive.spec.ts" time="0.015">
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - rapid seek near end" classname="api/positive/api.positive.spec.ts" time="0.03">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - rapid seek near end" classname="api/positive/api.positive.spec.ts" time="0.027">
 </testcase>
-<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - pause from edge user" classname="api/positive/api.positive.spec.ts" time="0.021">
-</testcase>
-</testsuite>
-<testsuite name="availability/availability.spec.ts" timestamp="2025-07-14T19:04:01.125Z" hostname="" tests="1" failures="0" skipped="0" time="2.047" errors="0">
-<testcase name="Availability test @availability › Main page loads and video player is ready" classname="availability/availability.spec.ts" time="2.047">
+<testcase name="API --&gt; http://host.docker.internal:3000/api/event POST validation - Positive cases @api @positive › Positive case - pause from edge user" classname="api/positive/api.positive.spec.ts" time="0.025">
 </testcase>
 </testsuite>
-<testsuite name="ui/video-player.playback.spec.ts" timestamp="2025-07-14T19:04:01.125Z" hostname="" tests="2" failures="1" skipped="0" time="3.949" errors="0">
-<testcase name="Video Player Playback Controls › Play button triggers play event and video plays" classname="ui/video-player.playback.spec.ts" time="1.853">
+<testsuite name="availability/availability.spec.ts" timestamp="2025-07-15T09:10:14.571Z" hostname="" tests="1" failures="0" skipped="0" time="1.753" errors="0">
+<testcase name="Availability test › Main page loads and video player is ready @availability @ui" classname="availability/availability.spec.ts" time="1.753">
 </testcase>
-<testcase name="Video Player Playback Controls › Pause button triggers pause event and video pauses" classname="ui/video-player.playback.spec.ts" time="2.096">
-<failure message="video-player.playback.spec.ts:18:9 Pause button triggers pause event and video pauses" type="FAILURE">
-<![CDATA[  ui/video-player.playback.spec.ts:18:9 › Video Player Playback Controls › Pause button triggers pause event and video pauses 
+</testsuite>
+<testsuite name="ui/video-player.e2e.spec.ts" timestamp="2025-07-15T09:10:14.571Z" hostname="" tests="1" failures="1" skipped="0" time="8.988" errors="0">
+<testcase name="E2E Test - All available functions › E2E - Play, seek, pause, play, scroll - collect all events and verify @ui @e2e" classname="ui/video-player.e2e.spec.ts" time="8.988">
+<failure message="video-player.e2e.spec.ts:5:9 E2E - Play, seek, pause, play, scroll - collect all events and verify @ui @e2e" type="FAILURE">
+<![CDATA[  ui/video-player.e2e.spec.ts:5:9 › E2E Test - All available functions › E2E - Play, seek, pause, play, scroll - collect all events and verify @ui @e2e 
 
-    Error: expect(received).toBe(expected) // Object.is equality
+    Error: expect(received).toEqual(expected) // deep equality
 
-    Expected: "pause"
-    Received: "play"
+    Expected: ArrayContaining ["play", "seeked", "pause", "play", "scroll"]
+    Received: ["play", "play", "play", "seeked", "scroll"]
 
-      25 |
-      26 |         const postData = JSON.parse(request.postData() ?? '{}');
-    > 27 |         expect(postData.type).toBe('pause');
-         |                               ^
-      28 |
-      29 |         expect(await videoPlayerPage.isPlaying()).toBe(false);
-      30 |     });
-        at /app/src/tests/ui/video-player.playback.spec.ts:27:31
+      11 |         await videoPlayerPage.scrollToPageBottom();
+      12 |     });
+    > 13 |     expect(events).toEqual(expect.arrayContaining(['play', 'seeked', 'pause', "play", 'scroll']));
+         |                    ^
+      14 |  });
+      15 | });
+      16 |
+        at /app/src/tests/ui/video-player.e2e.spec.ts:13:20
 
     attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
-    ../../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses/test-failed-1.png
+    ../../test-results/ui-video-player.e2e-E2E-Te-300a2-ll-events-and-verify-ui-e2e/test-failed-1.png
     ────────────────────────────────────────────────────────────────────────────────────────────────
 
     attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
-    ../../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses/video.webm
+    ../../test-results/ui-video-player.e2e-E2E-Te-300a2-ll-events-and-verify-ui-e2e/video.webm
     ────────────────────────────────────────────────────────────────────────────────────────────────
 
-    Error Context: ../../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses/error-context.md
+    Error Context: ../../test-results/ui-video-player.e2e-E2E-Te-300a2-ll-events-and-verify-ui-e2e/error-context.md
 
     attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
-    ../../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses/trace.zip
+    ../../test-results/ui-video-player.e2e-E2E-Te-300a2-ll-events-and-verify-ui-e2e/trace.zip
     Usage:
 
-        npx playwright show-trace ../../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses/trace.zip
+        npx playwright show-trace ../../test-results/ui-video-player.e2e-E2E-Te-300a2-ll-events-and-verify-ui-e2e/trace.zip
 
     ────────────────────────────────────────────────────────────────────────────────────────────────
 
     Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
 
-    Error: expect(received).toBe(expected) // Object.is equality
+    Error: expect(received).toEqual(expected) // deep equality
 
-    Expected: "pause"
-    Received: "play"
+    Expected: ArrayContaining ["play", "seeked", "pause", "play", "scroll"]
+    Received: ["play", "play", "seeked", "play", "scroll"]
 
-      25 |
-      26 |         const postData = JSON.parse(request.postData() ?? '{}');
-    > 27 |         expect(postData.type).toBe('pause');
-         |                               ^
-      28 |
-      29 |         expect(await videoPlayerPage.isPlaying()).toBe(false);
-      30 |     });
-        at /app/src/tests/ui/video-player.playback.spec.ts:27:31
+      11 |         await videoPlayerPage.scrollToPageBottom();
+      12 |     });
+    > 13 |     expect(events).toEqual(expect.arrayContaining(['play', 'seeked', 'pause', "play", 'scroll']));
+         |                    ^
+      14 |  });
+      15 | });
+      16 |
+        at /app/src/tests/ui/video-player.e2e.spec.ts:13:20
 
     attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
-    ../../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses-retry1/test-failed-1.png
+    ../../test-results/ui-video-player.e2e-E2E-Te-300a2-ll-events-and-verify-ui-e2e-retry1/test-failed-1.png
     ────────────────────────────────────────────────────────────────────────────────────────────────
 
     attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
-    ../../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses-retry1/video.webm
+    ../../test-results/ui-video-player.e2e-E2E-Te-300a2-ll-events-and-verify-ui-e2e-retry1/video.webm
     ────────────────────────────────────────────────────────────────────────────────────────────────
 
-    Error Context: ../../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses-retry1/error-context.md
+    Error Context: ../../test-results/ui-video-player.e2e-E2E-Te-300a2-ll-events-and-verify-ui-e2e-retry1/error-context.md
 
     attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
-    ../../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses-retry1/trace.zip
+    ../../test-results/ui-video-player.e2e-E2E-Te-300a2-ll-events-and-verify-ui-e2e-retry1/trace.zip
     Usage:
 
-        npx playwright show-trace ../../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses-retry1/trace.zip
+        npx playwright show-trace ../../test-results/ui-video-player.e2e-E2E-Te-300a2-ll-events-and-verify-ui-e2e-retry1/trace.zip
 
     ────────────────────────────────────────────────────────────────────────────────────────────────
 
     Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
 
-    Error: expect(received).toBe(expected) // Object.is equality
+    Error: expect(received).toEqual(expected) // deep equality
 
-    Expected: "pause"
-    Received: "play"
+    Expected: ArrayContaining ["play", "seeked", "pause", "play", "scroll"]
+    Received: ["play", "play", "play", "scroll", "seeked"]
 
-      25 |
-      26 |         const postData = JSON.parse(request.postData() ?? '{}');
-    > 27 |         expect(postData.type).toBe('pause');
-         |                               ^
-      28 |
-      29 |         expect(await videoPlayerPage.isPlaying()).toBe(false);
-      30 |     });
-        at /app/src/tests/ui/video-player.playback.spec.ts:27:31
+      11 |         await videoPlayerPage.scrollToPageBottom();
+      12 |     });
+    > 13 |     expect(events).toEqual(expect.arrayContaining(['play', 'seeked', 'pause', "play", 'scroll']));
+         |                    ^
+      14 |  });
+      15 | });
+      16 |
+        at /app/src/tests/ui/video-player.e2e.spec.ts:13:20
 
     attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
-    ../../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses-retry2/test-failed-1.png
+    ../../test-results/ui-video-player.e2e-E2E-Te-300a2-ll-events-and-verify-ui-e2e-retry2/test-failed-1.png
     ────────────────────────────────────────────────────────────────────────────────────────────────
 
     attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
-    ../../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses-retry2/video.webm
+    ../../test-results/ui-video-player.e2e-E2E-Te-300a2-ll-events-and-verify-ui-e2e-retry2/video.webm
     ────────────────────────────────────────────────────────────────────────────────────────────────
 
-    Error Context: ../../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses-retry2/error-context.md
+    Error Context: ../../test-results/ui-video-player.e2e-E2E-Te-300a2-ll-events-and-verify-ui-e2e-retry2/error-context.md
 
     attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
-    ../../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses-retry2/trace.zip
+    ../../test-results/ui-video-player.e2e-E2E-Te-300a2-ll-events-and-verify-ui-e2e-retry2/trace.zip
     Usage:
 
-        npx playwright show-trace ../../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses-retry2/trace.zip
+        npx playwright show-trace ../../test-results/ui-video-player.e2e-E2E-Te-300a2-ll-events-and-verify-ui-e2e-retry2/trace.zip
 
     ────────────────────────────────────────────────────────────────────────────────────────────────
 ]]>
 </failure>
 <system-out>
 <![CDATA[
-[[ATTACHMENT|../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses/test-failed-1.png]]
+[[ATTACHMENT|../test-results/ui-video-player.e2e-E2E-Te-300a2-ll-events-and-verify-ui-e2e/test-failed-1.png]]
 
-[[ATTACHMENT|../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses/video.webm]]
+[[ATTACHMENT|../test-results/ui-video-player.e2e-E2E-Te-300a2-ll-events-and-verify-ui-e2e/video.webm]]
 
-[[ATTACHMENT|../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses/error-context.md]]
+[[ATTACHMENT|../test-results/ui-video-player.e2e-E2E-Te-300a2-ll-events-and-verify-ui-e2e/error-context.md]]
 
-[[ATTACHMENT|../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses/trace.zip]]
+[[ATTACHMENT|../test-results/ui-video-player.e2e-E2E-Te-300a2-ll-events-and-verify-ui-e2e/trace.zip]]
 
-[[ATTACHMENT|../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses-retry1/test-failed-1.png]]
+[[ATTACHMENT|../test-results/ui-video-player.e2e-E2E-Te-300a2-ll-events-and-verify-ui-e2e-retry1/test-failed-1.png]]
 
-[[ATTACHMENT|../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses-retry1/video.webm]]
+[[ATTACHMENT|../test-results/ui-video-player.e2e-E2E-Te-300a2-ll-events-and-verify-ui-e2e-retry1/video.webm]]
 
-[[ATTACHMENT|../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses-retry1/error-context.md]]
+[[ATTACHMENT|../test-results/ui-video-player.e2e-E2E-Te-300a2-ll-events-and-verify-ui-e2e-retry1/error-context.md]]
 
-[[ATTACHMENT|../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses-retry1/trace.zip]]
+[[ATTACHMENT|../test-results/ui-video-player.e2e-E2E-Te-300a2-ll-events-and-verify-ui-e2e-retry1/trace.zip]]
 
-[[ATTACHMENT|../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses-retry2/test-failed-1.png]]
+[[ATTACHMENT|../test-results/ui-video-player.e2e-E2E-Te-300a2-ll-events-and-verify-ui-e2e-retry2/test-failed-1.png]]
 
-[[ATTACHMENT|../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses-retry2/video.webm]]
+[[ATTACHMENT|../test-results/ui-video-player.e2e-E2E-Te-300a2-ll-events-and-verify-ui-e2e-retry2/video.webm]]
 
-[[ATTACHMENT|../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses-retry2/error-context.md]]
+[[ATTACHMENT|../test-results/ui-video-player.e2e-E2E-Te-300a2-ll-events-and-verify-ui-e2e-retry2/error-context.md]]
 
-[[ATTACHMENT|../test-results/ui-video-player.playback-V-8284c-ause-event-and-video-pauses-retry2/trace.zip]]
+[[ATTACHMENT|../test-results/ui-video-player.e2e-E2E-Te-300a2-ll-events-and-verify-ui-e2e-retry2/trace.zip]]
 ]]>
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="ui/video-player.scroll.spec.ts" timestamp="2025-07-14T19:04:01.125Z" hostname="" tests="1" failures="0" skipped="0" time="1.875" errors="0">
-<testcase name="Video Player Scroll Event › Scroll triggers scroll event sent to backend" classname="ui/video-player.scroll.spec.ts" time="1.875">
+<testsuite name="ui/video-player.playback.spec.ts" timestamp="2025-07-15T09:10:14.571Z" hostname="" tests="2" failures="1" skipped="0" time="11.235" errors="0">
+<testcase name="Video Player Playback Controls › Play button triggers play event and video plays @ui @play" classname="ui/video-player.playback.spec.ts" time="3.244">
+</testcase>
+<testcase name="Video Player Playback Controls › Play, Pause button triggers pause event and video pauses @ui @pause" classname="ui/video-player.playback.spec.ts" time="7.991">
+<failure message="video-player.playback.spec.ts:11:13 Play, Pause button triggers pause event and video pauses @ui @pause" type="FAILURE">
+<![CDATA[  ui/video-player.playback.spec.ts:11:13 › Video Player Playback Controls › Play, Pause button triggers pause event and video pauses @ui @pause 
+
+    Error: expect(received).toContain(expected) // indexOf
+
+    Expected value: "pause"
+    Received array: ["play"]
+
+      12 |             await videoPlayerPage.playVideo();
+      13 |             const events = await videoPlayerPage.collectEventsDuringAction(() => videoPlayerPage.pauseVideo());
+    > 14 |             expect(events).toContain('pause');
+         |                            ^
+      15 |             expect(await videoPlayerPage.isPlaying()).toBe(false);
+      16 |         });
+      17 |     });
+        at /app/src/tests/ui/video-player.playback.spec.ts:14:28
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../test-results/ui-video-player.playback-V-335b4-t-and-video-pauses-ui-pause/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ../../test-results/ui-video-player.playback-V-335b4-t-and-video-pauses-ui-pause/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../test-results/ui-video-player.playback-V-335b4-t-and-video-pauses-ui-pause/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/ui-video-player.playback-V-335b4-t-and-video-pauses-ui-pause/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/ui-video-player.playback-V-335b4-t-and-video-pauses-ui-pause/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toContain(expected) // indexOf
+
+    Expected value: "pause"
+    Received array: ["play"]
+
+      12 |             await videoPlayerPage.playVideo();
+      13 |             const events = await videoPlayerPage.collectEventsDuringAction(() => videoPlayerPage.pauseVideo());
+    > 14 |             expect(events).toContain('pause');
+         |                            ^
+      15 |             expect(await videoPlayerPage.isPlaying()).toBe(false);
+      16 |         });
+      17 |     });
+        at /app/src/tests/ui/video-player.playback.spec.ts:14:28
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../test-results/ui-video-player.playback-V-335b4-t-and-video-pauses-ui-pause-retry1/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ../../test-results/ui-video-player.playback-V-335b4-t-and-video-pauses-ui-pause-retry1/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../test-results/ui-video-player.playback-V-335b4-t-and-video-pauses-ui-pause-retry1/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/ui-video-player.playback-V-335b4-t-and-video-pauses-ui-pause-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/ui-video-player.playback-V-335b4-t-and-video-pauses-ui-pause-retry1/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: expect(received).toContain(expected) // indexOf
+
+    Expected value: "pause"
+    Received array: ["play"]
+
+      12 |             await videoPlayerPage.playVideo();
+      13 |             const events = await videoPlayerPage.collectEventsDuringAction(() => videoPlayerPage.pauseVideo());
+    > 14 |             expect(events).toContain('pause');
+         |                            ^
+      15 |             expect(await videoPlayerPage.isPlaying()).toBe(false);
+      16 |         });
+      17 |     });
+        at /app/src/tests/ui/video-player.playback.spec.ts:14:28
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    ../../test-results/ui-video-player.playback-V-335b4-t-and-video-pauses-ui-pause-retry2/test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    ../../test-results/ui-video-player.playback-V-335b4-t-and-video-pauses-ui-pause-retry2/video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ../../test-results/ui-video-player.playback-V-335b4-t-and-video-pauses-ui-pause-retry2/error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../../test-results/ui-video-player.playback-V-335b4-t-and-video-pauses-ui-pause-retry2/trace.zip
+    Usage:
+
+        npx playwright show-trace ../../test-results/ui-video-player.playback-V-335b4-t-and-video-pauses-ui-pause-retry2/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../test-results/ui-video-player.playback-V-335b4-t-and-video-pauses-ui-pause/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/ui-video-player.playback-V-335b4-t-and-video-pauses-ui-pause/video.webm]]
+
+[[ATTACHMENT|../test-results/ui-video-player.playback-V-335b4-t-and-video-pauses-ui-pause/error-context.md]]
+
+[[ATTACHMENT|../test-results/ui-video-player.playback-V-335b4-t-and-video-pauses-ui-pause/trace.zip]]
+
+[[ATTACHMENT|../test-results/ui-video-player.playback-V-335b4-t-and-video-pauses-ui-pause-retry1/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/ui-video-player.playback-V-335b4-t-and-video-pauses-ui-pause-retry1/video.webm]]
+
+[[ATTACHMENT|../test-results/ui-video-player.playback-V-335b4-t-and-video-pauses-ui-pause-retry1/error-context.md]]
+
+[[ATTACHMENT|../test-results/ui-video-player.playback-V-335b4-t-and-video-pauses-ui-pause-retry1/trace.zip]]
+
+[[ATTACHMENT|../test-results/ui-video-player.playback-V-335b4-t-and-video-pauses-ui-pause-retry2/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/ui-video-player.playback-V-335b4-t-and-video-pauses-ui-pause-retry2/video.webm]]
+
+[[ATTACHMENT|../test-results/ui-video-player.playback-V-335b4-t-and-video-pauses-ui-pause-retry2/error-context.md]]
+
+[[ATTACHMENT|../test-results/ui-video-player.playback-V-335b4-t-and-video-pauses-ui-pause-retry2/trace.zip]]
+]]>
+</system-out>
 </testcase>
 </testsuite>
-<testsuite name="ui/video-player.seek.spec.ts" timestamp="2025-07-14T19:04:01.125Z" hostname="" tests="1" failures="0" skipped="0" time="1.624" errors="0">
-<testcase name="Video Player Seek Controls › Seek triggers seeked event and updates video time" classname="ui/video-player.seek.spec.ts" time="1.624">
+<testsuite name="ui/video-player.scroll.spec.ts" timestamp="2025-07-15T09:10:14.571Z" hostname="" tests="1" failures="0" skipped="0" time="3.18" errors="0">
+<testcase name="Video Player Scroll Event › Scroll triggers scroll event sent to backend @ui @scroll" classname="ui/video-player.scroll.spec.ts" time="3.18">
+</testcase>
+</testsuite>
+<testsuite name="ui/video-player.seek.spec.ts" timestamp="2025-07-15T09:10:14.571Z" hostname="" tests="1" failures="0" skipped="0" time="3.027" errors="0">
+<testcase name="Video Player Seek Controls › Seek triggers seeked event and updates video time @ui @seek" classname="ui/video-player.seek.spec.ts" time="3.027">
 </testcase>
 </testsuite>
 </testsuites>
