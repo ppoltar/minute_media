@@ -85,14 +85,14 @@ Ensure high confidence in the **video player functionality**, **event tracking A
 
 ## 🛠️ Tools & Frameworks
 
-| Tool                           | Reason                                                        |
-|--------------------------------|---------------------------------------------------------------|
-| **Playwright**                 | Fast, modern UI automation with great parallelism & reporting |
-| **TypeScript**                 | Type safety and structure for scaling automation code         |
-| **HTML/XML Report** (optional) | For CI-based HTML reports with screenshots, logs...           |
-| **GitHub Actions**             | CI pipeline support for automation runs and pull requests     |
-| **Make**                       | Simplifies common tasks like build, test, clean, report       |
-| **Docker**                     | Ensures consistent, containerized test environments           |
+| Tool                 | Reason                                                        |
+|----------------------|---------------------------------------------------------------|
+| **Playwright**       | Fast, modern UI automation with great parallelism & reporting |
+| **TypeScript**       | TypeScript safety and structure for scaling automation code   |
+| **HTML/XML Report**  | For CI-based HTML reports with screenshots, logs...           |
+| **GitHub Actions**   | CI pipeline support for automation runs and pull requests     |
+| **Make**             | Simplifies common tasks like build, test, clean, report       |
+| **Docker**           | Ensures consistent, containerized test environments           |
 
 ## 🧪 Automation Structure
 
@@ -114,9 +114,9 @@ Ensure high confidence in the **video player functionality**, **event tracking A
 │   │   │   │   ├── api.negative.spec.ts
 │   │   │   │   ├── api.negative.data.ts
 │   └── fixtures/video-player.fixture.ts
-│   └──pages/video-player.page.ts
-│   └──config/urls.ts
-│   └──locators/video-player.locators.ts
+│   └── pages/video-player.page.ts
+│   └── config/urls.ts
+│   └── locators/video-player.locators.ts
 ├── .github/workflows/ci.yml
 ├── player_files/
 ```
@@ -138,22 +138,21 @@ Ensure high confidence in the **video player functionality**, **event tracking A
 7. Upload test report artifact
 8. Fail CI if tests failed (based on exit code)
 
----
 
 ### **Tool:** Report summary in PR
 
 #### 💬 Steps:
 Post PR comment with test summary
 
----
+
 
 ### **Tool:** GitHub Pages 
 
 #### 📘 Steps:
 Deploy a tests report to GitHub Pages 
-with a link to report.
+with a link to the report.
 
----
+
 
 ### **Tool:** ESLint & Prettier 
 
@@ -161,8 +160,8 @@ with a link to report.
 
 1. Run ESLint
 2. Run Prettier check
+ 
 ---
-
 ## 📊 Reporting
 
 **Format:** Playwright HTML report
