@@ -84,7 +84,6 @@ export const nullValuesEvent = () => ({
     timestamp: null,
 });
 
-// Add more cases for international characters, empty strings, etc.
 export const internationalCharsEvent = () => ({
     userId: '用户-123',
     type: 'play',

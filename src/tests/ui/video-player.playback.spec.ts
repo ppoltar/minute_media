@@ -1,31 +1,17 @@
-import { test } from '../../fixtures/video-player.fixture';
-import { expect } from '@playwright/test';
-import {BASE_URLS} from "../../config/urls.ts";
+    import { test } from '../../fixtures/video-player.fixture';
+    import { expect } from '@playwright/test';
 
-test.describe('Video Player Playback Controls', () => {
-    test('Play button triggers play event and video plays', async ({ videoPlayerPage, page }) => {
-        const [request] = await Promise.all([
-            page.waitForRequest(req => req.url().endsWith(BASE_URLS.api_event) && req.method() === 'POST'),
-            videoPlayerPage.playVideo(),
-        ]);
+    test.describe('Video Player Playback Controls', () => {
+        test('Play button triggers play event and video plays @ui @play', async ({ videoPlayerPage }) => {
+            const events = await videoPlayerPage.collectEventsDuringAction(() => videoPlayerPage.playVideo());
+            expect(events).toContain('play');
+            expect(await videoPlayerPage.isPlaying()).toBe(true);
+        });
 
-        const postData = JSON.parse(request.postData() ?? '{}');
-        expect(postData.type).toBe('play');
-
-        expect(await videoPlayerPage.isPlaying()).toBe(true);
+        test('Play, Pause button triggers pause event and video pauses @ui @pause', async ({ videoPlayerPage }) => {
+            await videoPlayerPage.playVideo();
+            const events = await videoPlayerPage.collectEventsDuringAction(() => videoPlayerPage.pauseVideo());
+            expect(events).toContain('pause');
+            expect(await videoPlayerPage.isPlaying()).toBe(false);
+        });
     });
-
-    test('Pause button triggers pause event and video pauses', async ({ videoPlayerPage, page }) => {
-        await videoPlayerPage.playVideo();
-
-        const [request] = await Promise.all([
-            page.waitForRequest(req => req.url().endsWith(BASE_URLS.api_event) && req.method() === 'POST'),
-            videoPlayerPage.pauseVideo(),
-        ]);
-
-        const postData = JSON.parse(request.postData() ?? '{}');
-        expect(postData.type).toBe('pause');
-
-        expect(await videoPlayerPage.isPlaying()).toBe(false);
-    });
-});
